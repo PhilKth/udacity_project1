@@ -1,26 +1,32 @@
 /* Mobile first */
 .container{
     display:grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
-    border: 2px solid yellow;
-    background: black;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 600px;
+    border: 2px solid white;
+    background: darkgrey;
     grid-template-areas:
       "hd" 
       "sd"
       "main"
       "ft";
   }
+  
   .box{
-      border: 1px solid red;
-      background: #F8FA9D;
+      border: 1px solid black;
+      color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+      /* background: #F8FA9D; */
       }
   
     .header{
       grid-area:hd;
+      text-align: center;
     }
     .footer{
       grid-area: ft;  
+      text-align: center;
     }
     .sidebar{
       grid-area: sd;
@@ -28,17 +34,43 @@
     .content{
       grid-area: main;
     }
+    
+    #contentGrid{
+      display: grid;
+      grid-template-rows: 100%;
+      grid-gap: 10px;
+    }
+
+    .blogpost{
+      border: 2px solid white;
+  	  background: grey;
+      text-align: center;
+      hove
+    }
+
+    .blogpost:hover{
+      color: red;
+    }
   
   /* If Screen Is Wide Enough */
-  /* @media(min-width:900px){
+  @media(min-width:900px){
   .container{
         display:grid;
-        grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px 600px;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100px 600px;
         grid-template-areas: 
-        "hd hd hd hd hd hd hd hd"
-        "sd sd main main main main main main"
-        "ft ft ft ft ft ft ft ft";
+        "hd hd"
+        "sd main"
+        "ft ft";
+        /* grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 100px 600px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd hd "
+        "sd sd main main main main main main main"
+        "ft ft ft ft ft ft ft ft ft"; */
         border: 2px solid red;
-    } */
+    }
+  .header{
+    text-align:left;
+  }
   }
