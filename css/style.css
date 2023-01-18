@@ -1,6 +1,7 @@
 /* General Text Styling */
 body{
   font-family: Helvetica, Arial, sans-serif;
+  background-color: lightgrey;
   font-size: 16px;
 }
 
@@ -43,7 +44,6 @@ body{
   
     .header{
       grid-area:hd;
-      line-height: 80px;
       text-align: center;
     }
     .footer{
