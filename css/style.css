@@ -1,8 +1,9 @@
 /* General Text Styling */
 body{
   font-family: Helvetica, Arial, sans-serif;
-  background-color: lightgrey;
+  background-color: white;
   font-size: 16px;
+  color: black;
 }
 
 .h1{
@@ -27,7 +28,6 @@ body{
     grid-template-columns: 100%;
     grid-template-rows: 80px 200px 600px;
     border: 2px solid white;
-    background: darkgrey;
     grid-template-areas:
       "hd" 
       "sd"
@@ -37,8 +37,8 @@ body{
   
   .box{
       border: 1px solid black;
-      color: white;
       padding: 0 5px;
+      box-shadow: 0 0 10px 2px rgb(0 0 0 / 18%);
       /* background: #F8FA9D; */
       }
   
@@ -67,6 +67,7 @@ body{
       border: 2px solid white;
   	  background: grey;
       text-align: center;
+      box-shadow: 0 0 10px 2px rgb(0 0 0 / 58%);
     }
 
     .blogpost:hover{
@@ -77,6 +78,7 @@ body{
   @media(min-width:900px){
   .container{
         display:grid;
+        width: 900px;
         grid-template-columns: 20% 80%;
         grid-template-rows: 80px 600px;
         grid-template-areas: 
