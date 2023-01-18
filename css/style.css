@@ -24,7 +24,7 @@ body{
 .container{
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 600px;
+    grid-template-rows: 80px 200px 600px;
     border: 2px solid white;
     background: darkgrey;
     grid-template-areas:
@@ -43,6 +43,7 @@ body{
   
     .header{
       grid-area:hd;
+      line-height: 80px;
       text-align: center;
     }
     .footer{
@@ -77,7 +78,7 @@ body{
   .container{
         display:grid;
         grid-template-columns: 20% 80%;
-        grid-template-rows: 100px 600px;
+        grid-template-rows: 80px 600px;
         grid-template-areas: 
         "hd hd"
         "sd main"
