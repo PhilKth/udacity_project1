@@ -26,7 +26,7 @@ body{
 .container{
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 200px 600px;
+    grid-template-rows: 80px 1000px;
     grid-template-areas:
       "hd" 
       "main"
@@ -58,13 +58,22 @@ body{
     }
     
     #contentGrid{
-      display: grid;
+      display: block;
       grid-template-rows: 100%;
       grid-gap: 10px;
     }
 
     .blogpost{
       border: 1px solid black;
+      width: 90%;
+      margin: auto;
+    }
+
+    .desc{
+      margin-block-start: 5px;
+      margin-block-end: 10px;
+      font-size: 1,5em;
+      text-align: center;
     }
 
     div.blogpost img {
@@ -73,7 +82,7 @@ body{
     }
 
     .blogpost:hover{
-      color: red;
+      border: 1px solid red;
     }
   
   /* If Screen Is Wide Enough */
@@ -83,7 +92,7 @@ body{
         width: 80%;
         margin:auto;
         grid-template-columns: 75% 25%;
-        grid-template-rows: 80px 600px;
+        grid-template-rows: 80px 1000px;
         grid-template-areas: 
         "hd hd"
         "main sd"
@@ -98,5 +107,10 @@ body{
     }
   .header{
     text-align:left;
+  }
+  .blogpost{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
   }
   }
