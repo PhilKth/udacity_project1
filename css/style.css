@@ -76,13 +76,13 @@ body{
   @media(min-width:900px){
   .container{
         display:grid;
-        width: 900px;
+        width: 80%;
         margin:auto;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 80% 20%;
         grid-template-rows: 80px 600px;
         grid-template-areas: 
         "hd hd"
-        "sd main"
+        "main sd"
         "ft ft";
         /* grid-template-columns: 300px 300px 300px;
         grid-template-rows: 100px 600px;
