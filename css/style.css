@@ -6,11 +6,6 @@ body{
   color: black;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .h1{
   font-size: 2em;
 }
@@ -69,8 +64,12 @@ img {
     }
 
     .blogpost{
-      /* border: 2px solid white; */
-      text-align: left;
+      border: 1px solid black;
+    }
+
+    div.blogpost img {
+      width: 100%;
+      height: auto;
     }
 
     .blogpost:hover{
