@@ -29,8 +29,8 @@ body{
     grid-template-rows: 80px 200px 600px;
     grid-template-areas:
       "hd" 
-      "sd"
       "main"
+      "sd"
       "ft";
   }
   
@@ -50,6 +50,7 @@ body{
     }
     .sidebar{
       grid-area: sd;
+      padding: 0 5px;
     }
     .content{
       grid-area: main;
