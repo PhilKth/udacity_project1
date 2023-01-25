@@ -96,6 +96,11 @@ body{
       height: auto;
       border-radius: 50%;
     }
+
+    .article img{
+      width: 100%;
+      height: auto;
+    }
   
   /* If Screen Is Wide Enough */
   @media(min-width:900px){
