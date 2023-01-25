@@ -83,7 +83,7 @@ body{
 
     /* Author Sidebar */
     .author{
-      width: 100%;
+      width: 90%;
     }
 
     .author img{
@@ -103,6 +103,26 @@ body{
       height: auto;
     }
 
+    /* Buttons */
+    .back-btn {
+      background-color: #4CAF50; /* Green */
+      border: 2px solid #4CAF50;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background-color: white;
+      color: black;
+    }
+
     /* Social Media Styling */
     .share-btns {
       padding-top: 1rem;
@@ -111,8 +131,9 @@ body{
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
+      cursor: pointer;
     }
-    
+
     .share-btn {
       display: inline-block;
       color: #ffffff;
@@ -120,8 +141,9 @@ body{
       padding: 0.1em 0.6em;
       outline: none;
       text-align: center;
-      font-size: 0.9em;
+      font-size: 1em;
       margin: 0 0.2em;
+      text-decoration: none;
     }
     
     .share-btn:focus,
@@ -158,5 +180,9 @@ body{
     border: 1px solid black;
     width: 80%;
     margin: 25px auto;
+  }
+  /* Author Sidebar */
+  .author{
+    width: 100%;
   }
 }
