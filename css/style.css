@@ -83,10 +83,6 @@ body{
       border: 1px solid red;
     }
 
-    .article{
-      width: 90%;
-    }
-
     .author{
       width: 100%;
     }
@@ -97,6 +93,11 @@ body{
       border-radius: 50%;
     }
 
+    .article{
+      width: 90%;
+      margin: auto;
+    }
+    
     .article img{
       width: 100%;
       height: auto;
