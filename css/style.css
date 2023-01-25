@@ -53,7 +53,6 @@ body{
     }
     .content{
       grid-area: main;
-
     }
     
     #contentGrid{
@@ -84,6 +83,10 @@ body{
       border: 1px solid red;
     }
 
+    .article{
+      width: 90%;
+    }
+
     .author{
       width: 100%;
     }
@@ -106,13 +109,6 @@ body{
         "hd hd"
         "main sd"
         "ft ft";
-        /* grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 100px 600px;
-        grid-template-areas: 
-        "hd hd hd hd hd hd hd hd hd "
-        "sd sd main main main main main main main"
-        "ft ft ft ft ft ft ft ft ft"; */
-        /* border: 2px solid red; */
     }
   .header{
     text-align:left;
@@ -122,4 +118,4 @@ body{
     width: 80%;
     margin: 25px auto;
   }
-  }
+}
