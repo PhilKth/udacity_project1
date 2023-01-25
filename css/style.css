@@ -25,7 +25,7 @@ body{
 .container{
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px 1000px;
+    grid-template-rows: 80px auto;
     grid-template-areas:
       "hd" 
       "main"
@@ -71,7 +71,7 @@ body{
     .desc{
       margin-block-start: 5px;
       margin-block-end: 10px;
-      font-size: 1,5em;
+      font-size: 20px;
       text-align: center;
     }
 
@@ -101,7 +101,7 @@ body{
         width: 80%;
         margin:auto;
         grid-template-columns: 75% 25%;
-        grid-template-rows: 80px 1000px;
+        grid-template-rows: 80px auto;
         grid-template-areas: 
         "hd hd"
         "main sd"
