@@ -5,19 +5,19 @@ body{
   color: black;
 }
 
-.h1{
+h1{
   font-size: 2em;
 }
-.h2{
+h2{
   font-size: 1.5em;
 }
-.h3{
+h3{
   font-size: 1.4em;
 }
-.h4{
+h4{
   font-size: 1.3em;
 }
-.h5{
+h5{
   font-size: 1.1em;
 }
 
@@ -55,8 +55,8 @@ body{
     
     #contentGrid{
       display: block;
-      grid-template-rows: 100%;
-      grid-gap: 10px;
+      /* grid-template-rows: 100%;
+      grid-gap: 10px; */
     }
 
     .blogpost{
@@ -84,6 +84,7 @@ body{
     /* Author Sidebar */
     .author{
       width: 90%;
+      margin: auto;
     }
 
     .author img{
@@ -116,6 +117,7 @@ body{
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
+      border-radius: 4px;
     }
 
     .back-btn:hover {
