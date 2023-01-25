@@ -86,7 +86,12 @@ body{
 
     .author{
       width: 100%;
+    }
+
+    .author img{
+      width: 100%;
       height: auto;
+      border-radius: 50%;
     }
   
   /* If Screen Is Wide Enough */
