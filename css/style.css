@@ -54,9 +54,8 @@ h5{
     }
     
     #contentGrid{
-      display: block;
-      /* grid-template-rows: 100%;
-      grid-gap: 10px; */
+      display: flex;
+      flex-direction: column;
     }
 
     .blogpost{
