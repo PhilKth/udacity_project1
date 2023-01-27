@@ -21,6 +21,10 @@ h5{
   font-size: 1.1em;
 }
 
+p{
+  line-height: 1.2em;
+}
+
 /* Mobile first */
 .container{
     display:grid;
@@ -169,7 +173,7 @@ h5{
         margin:auto;
         grid-template-columns: 75% 25%;
         grid-template-rows: 80px auto;
-        grid-template-areas: 
+        grid-template-areas:
         "hd hd"
         "main sd"
         "ft ft";
