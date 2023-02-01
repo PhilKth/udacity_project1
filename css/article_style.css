@@ -3,8 +3,13 @@
     width: 90%;
     margin: auto;
   }
+
+  figure{
+    margin: auto;
+    width: 95%;
+  }
   
-  .figure img{
-    width: 100%;
-    height: auto;
+  figcaption{
+    text-align: center;
+    line-height: 1.5em;
   }
