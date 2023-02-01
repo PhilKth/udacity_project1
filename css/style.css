@@ -63,11 +63,9 @@
 
     /* Navbar */
     .navbar {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
       display: flex;
       align-items: center;
-      justify-content: left;
+      justify-content: center;
       flex-wrap: wrap;
       cursor: pointer;
     }
@@ -84,8 +82,8 @@
       text-decoration: none;
     }
 
-    .share-btn:focus,
-    .share-btn:hover {
+    .nav-btn:focus,
+    .nav-btn:hover {
       color: red;
     }
 
