@@ -127,7 +127,7 @@
         width: 80%;
         margin:auto;
         grid-template-columns: 75% 25%;
-        grid-template-rows: 120px auto;
+        grid-template-rows: auto auto;
         grid-template-areas:
         "hd hd"
         "main sd"
