@@ -1,10 +1,12 @@
 @import url("text_style.css");
+@import url("article_style.css");
+@import url("social_style.css");
 
 /* Mobile first */
 .container{
     display:grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80px auto;
+    grid-template-rows: 120px auto;
     grid-template-areas:
       "hd" 
       "main"
@@ -59,6 +61,29 @@
       border: 1px solid red;
     }
 
+    /* Navbar */
+    .navbar {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      cursor: pointer;
+    }
+  
+    .nav-btn {
+      display: inline-block;
+      color: #ffffff;
+      border: none;
+      padding: 0.1em 0.6em;
+      outline: none;
+      text-align: center;
+      font-size: 1em;
+      margin: 0 0.2em;
+      text-decoration: none;
+    }
+
     /* Author Sidebar */
     .author{
       width: 90%;
@@ -69,17 +94,6 @@
       width: 100%;
       height: auto;
       border-radius: 50%;
-    }
-
-    /* Blogpost styling */
-    .article{
-      width: 90%;
-      margin: auto;
-    }
-    
-    .article img{
-      width: 100%;
-      height: auto;
     }
 
     /* Buttons */
@@ -102,43 +116,6 @@
       background-color: white;
       color: black;
     }
-
-    /* Social Media Styling */
-    .share-btns {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      cursor: pointer;
-    }
-
-    .share-btn {
-      display: inline-block;
-      color: #ffffff;
-      border: none;
-      padding: 0.1em 0.6em;
-      outline: none;
-      text-align: center;
-      font-size: 1em;
-      margin: 0 0.2em;
-      text-decoration: none;
-    }
-    
-    .share-btn:focus,
-    .share-btn:hover {
-      text-decoration: none;
-      opacity: 0.8;
-    }
-    
-    .share-btn:active {
-      color: #e2e2e2;
-    }
-
-    .share-btn.twitter     { background: #55acee; }
-    .share-btn.facebook    { background: #3B5998; }
-    .share-btn.linkedin    { background: #4875B4; }
   
   /* If Screen Is Wide Enough */
   @media(min-width:900px){
@@ -147,7 +124,7 @@
         width: 80%;
         margin:auto;
         grid-template-columns: 75% 25%;
-        grid-template-rows: 80px auto;
+        grid-template-rows: 120px auto;
         grid-template-areas:
         "hd hd"
         "main sd"
@@ -161,6 +138,7 @@
     width: 80%;
     margin: 25px auto;
   }
+
   /* Author Sidebar */
   .author{
     width: 100%;

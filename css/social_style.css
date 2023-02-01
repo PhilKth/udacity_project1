@@ -1,0 +1,36 @@
+/* Social Media Styling */
+.share-btns {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+
+  .share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.1em 0.6em;
+    outline: none;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 0.2em;
+    text-decoration: none;
+  }
+  
+  .share-btn:focus,
+  .share-btn:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .share-btn:active {
+    color: #e2e2e2;
+  }
+
+  .share-btn.twitter     { background: #55acee; }
+  .share-btn.facebook    { background: #3B5998; }
+  .share-btn.linkedin    { background: #4875B4; }
