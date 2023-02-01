@@ -1,0 +1,26 @@
+/* General Text Styling */
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.4em;
+  }
+  h4{
+    font-size: 1.3em;
+  }
+  h5{
+    font-size: 1.1em;
+  }
+  
+  p{
+    line-height: 1.2em;
+  }
