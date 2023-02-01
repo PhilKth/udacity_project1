@@ -1,5 +1,5 @@
 /* Blogpost styling */
-  .article{
+  article{
     width: 90%;
     margin: auto;
   }
@@ -7,6 +7,10 @@
   figure{
     margin: auto;
     width: 95%;
+  }
+
+  figure img{
+    width: 100%;
   }
   
   figcaption{
